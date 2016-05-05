@@ -5,7 +5,7 @@ highlighter:         rouge
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           date
 #relative_permalinks: true
 
 # Setup
@@ -23,7 +23,6 @@ author:
 
 paginate:         10
 paginate_path:    '/blog/page:num'
-permalink:     date
 
 # Custom vars
 version:          1.0.0
