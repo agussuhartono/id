@@ -19,7 +19,7 @@ author:
   url:            http://www.agus.pro/id
   gravatar:       https://en.gravatar.com/agussuhartono
   photo:          https://secure.gravatar.com/avatar/01eed2065469bcf386582acb1f0671c8
-  introduction:   'Seoarang suami dan ayah bagi 4 orang anak. <a href="/about/">Tentang saya...</a>.'
+  introduction:   'Seoarang suami dan ayah bagi 4 orang anak. <a href="/id/about/">Tentang saya...</a>.'
 
 paginate:         10
 paginate_path:    '/blog/page:num'
