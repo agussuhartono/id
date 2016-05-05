@@ -10,16 +10,16 @@ permalink:           pretty
 
 # Setup
 title:            Agus
-tagline:          'Learning, Coding and Sharing.'
+tagline:          'Belajar, Menulis Kode dan Berbagi.'
 description:      'Simple tools for.'
-url:              http://irnawansuprapti.github.io
+url:              http://www.agus.pro/id
 
 author:
   name:           'Agus Suhartono'
   url:            http://www.agus.pro
   gravatar:       https://en.gravatar.com/agussuhartono
   photo:          https://secure.gravatar.com/avatar/01eed2065469bcf386582acb1f0671c8
-  introduction:   'Husband and father for four childs. <a href="/about">More about me here</a>.'
+  introduction:   'Seoarang suami ada ayah bagi 4 anak. <a href="/about/">Tentang saya...</a>.'
 
 paginate:         10
 paginate_path:    '/blog/page:num'
@@ -28,4 +28,4 @@ paginate_path:    '/blog/page:num'
 version:          1.0.0
 
 github:
-  repo:           https://github.com/agussuhartono/agussuhartono.github.io
+  repo:           https://github.com/agussuhartono/
