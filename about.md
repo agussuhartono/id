@@ -16,9 +16,9 @@ Saat saat ini lebih sering bersentuhan dengan teknologi PHP dan teknologi Web la
 Sejak 2009, saya bergabung sebagai kontributor Openbiz Framework.
 Referesi :
 
-- [https://web.archive.org/web/20091227073619/http://www.phpopenbiz.org/jim/node/492] (http://www.phpopenbiz.org/jim/node/492) 
-- http://www.openbiz.me/team.php
-- http://www.openbiz.cn/team.php
+- <a href="https://web.archive.org/web/20091227073619/http://www.phpopenbiz.org/jim/node/492]" > http://www.phpopenbiz.org/jim/node/492 </a> (Arsip)
+- <a href="http://www.openbiz.me/team.php">http://www.openbiz.me/team.php</a>
+- <a href="http://www.openbiz.cn/team.php">http://www.openbiz.cn/team.php</a>
 
 <blockquote>
 	<strong>Agus Suhartono, Indonesia</strong><br/>
@@ -30,7 +30,7 @@ Moto saya dalam software development adalah :
 
 <blockquote>
 	Teknologi digunakan untuk menyederhanakan dan memudahkan pekerjaan manusia.
-</blockquote>	
+</blockquote>
 <blockquote>
 	Segela sesuatu yang dapat dipolakan, maka dapat disederhanakan.	
 </blockquote>
