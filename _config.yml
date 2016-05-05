@@ -1,0 +1,31 @@
+# Dependencies
+#markdown:            redcarpet
+highlighter:         rouge
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:            Agus
+tagline:          'Learning, Coding and Sharing.'
+description:      'Simple tools for.'
+url:              http://irnawansuprapti.github.io
+
+author:
+  name:           'Agus Suhartono'
+  url:            http://www.agus.pro
+  gravatar:       https://en.gravatar.com/agussuhartono
+  photo:          https://secure.gravatar.com/avatar/01eed2065469bcf386582acb1f0671c8
+  introduction:   'Husband and father for four childs. <a href="/about">More about me here</a>.'
+
+paginate:         10
+paginate_path:    '/blog/page:num'
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/agussuhartono/agussuhartono.github.io
