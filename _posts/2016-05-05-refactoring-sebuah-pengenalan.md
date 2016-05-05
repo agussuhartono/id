@@ -50,6 +50,7 @@ class Sales {
 
 Perhatikan kode dalam method calcTotal(), ada dua hal yang perlu di refactoring yaitu total item dan rumus  perhitungan pajak (tax). Kita perlu menambah dua method dalam object Sales sebagai berikut:
 
+{% highlight php %}
 protected function itemTotal($item)
 {
     return $item->price * $item->quantity;
@@ -59,8 +60,12 @@ protected function calcSalesTax($amount)
 {
     return $amount * 0.07;
 }
+
+{% endhighlight %}
+
 Kemudian method calcTotal() kita sederhanakan menjadi berikut:
 
+{% highlight php %}
 public function calcTotal()
 {
     $total = 0;
@@ -70,15 +75,22 @@ public function calcTotal()
     $total += $this->calcSalesTax($total);
     return $total;
 }
+
+{% endhighlight %}
+
 Perhatikan, method itemTotal() melakukan perhitungan dengan variable yang ada di object SalesItem.
 Sudah selayaknya mothod itemTotal() kita pindah ke class SalesItem dengan nama method ‘total’ saja.
 
+{% highlight php %}
 public function total()
 {
     return $this->price * $this->quantity;
 }
+{% endhighlight %}
+
 Kode dalam method calcTotal menjadi lebih sederhana, sebagai berikut:
 
+{% highlight php %}
 public function calcTotal()
 {
     $total = 0;
@@ -88,8 +100,11 @@ public function calcTotal()
     $total += $this->calcSalesTax($total);
     return $total;
 }
+{% endhighlight %}
+
 Berikut adalah hasil akhir dari kedua class tersebut:
 
+{% highlight php %}
 class SalesItem {
     public $price = 0;
     public $quantity = 0;
@@ -122,3 +137,4 @@ class Sales {
         return $total;
     }
 }
+{% endhighlight %}
