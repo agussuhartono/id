@@ -80,7 +80,7 @@ public function calcTotal()
 
 Perhatikan, method itemTotal() melakukan perhitungan dengan variable yang ada di object SalesItem saja, tidak ada variable dari object lain.
 Sudah selayaknya mothod itemTotal() kita pindah ke class SalesItem dengan nama method ‘total’ saja.  
-Kita sekaligus menerapkan <a href"https://en.wikipedia.org/wiki/Single_responsibility_principle"><i>Single Resposibility Principle</i></a>.
+Kita sekaligus menerapkan <i>[Single Resposibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)</i>.
 
 {% highlight php %}
 public function total()
@@ -141,3 +141,5 @@ class Sales {
 {% endhighlight %}
 
 Smoga contoh sederhana ini bisa difahami bagaimana melukan refactoring sehingga kode kita menjadi lebih berkualitas sehingga mudah difahami dan dipelihara.
+
+Note: saya ambil dari artikel lama saya di [sini](https://web.archive.org/web/20090410083802/http://www.thephpenterprise.com/2009/04/02/refactoring-sebuah-pengenalan/).
