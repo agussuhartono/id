@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Refactoring Sebuah Pengenalan
+title: Refactoring &#58; Sebuah Pengenalan
 comments: true
 category: Best Practise
 tags: Refactoring
