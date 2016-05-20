@@ -10,8 +10,9 @@ tags: Refactoring, OpenbizX, Openbiz, Controller, FrontController, PageControlle
 Karena sebenarnya hal itu bukan bagian view dalam MVC, melainkan controller.
 
 Dalam arsitektur MVC, controller ini ada 2 jenis, 
-- menggunakan PageController
-- menggunakan FrontController
+
+	- menggunakan PageController
+	- menggunakan FrontController
 
 ## PageController
 Cara kerja PageController ini lebih simpel,
