@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inilah 6 Alasan Mengapa Anda Perlu 'Design Pattern'
+title: Inilah 6 Alasan Mengapa Anda Perlu Design Pattern
 comments: true
 category: Design Pattern
 tags: design pattern, software development, filosofi
